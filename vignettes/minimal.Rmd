@@ -32,3 +32,18 @@ get_info_data(iris)
 
 ```
 
+# get_mean_data
+
+    
+
+  
+
+```{r example-get_mean_data}
+get_mean_data(iris)
+```
+
+  
+
+  
+
+

@@ -8,6 +8,10 @@ Authors@R: c(
   )
 Description: Practice TD1.
 License: MIT + file LICENSE
+Imports: 
+    dplyr,
+    magrittr,
+    tibble
 Suggests: 
     knitr,
     rmarkdown,
