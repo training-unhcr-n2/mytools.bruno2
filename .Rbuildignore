@@ -1,2 +1,5 @@
 
 ^dev$
+^LICENSE\.md$
+^mytools\.bruno2\.Rproj$
+^\.Rproj\.user$
