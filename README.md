@@ -19,7 +19,7 @@ You can install the development version of mytools.bruno2 from
 devtools::install_github("training-unhcr-n2/mytools.bruno2")
 ```
 
-## Example
+## Examples
 
 Please use my_dataset: a dummy dataset to try the diferent functions of
 the package. This is a basic example which shows you how to solve a
@@ -27,15 +27,17 @@ common problem:
 
 ``` r
 library(mytools.bruno2)
-## basic example code
+# basic example code
 
 ## get_info_data provides basic information (dimension and column names)of the dataset
+
 get_info_data(iris)
 #> $dimension
 #> [1] 150   5
 #> 
 #> $names
 #> [1] "Sepal.Length" "Sepal.Width"  "Petal.Length" "Petal.Width"  "Species"
+
 get_info_data(my_dataset)
 #> $dimension
 #> [1] 35 14

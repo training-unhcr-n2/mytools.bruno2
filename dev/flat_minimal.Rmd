@@ -91,7 +91,7 @@ test_that("get_info_data works",{
 
 ```
 
-# get_mean_data
+# Function get_mean_data
     
 ```{r function-get_mean_data}
 #' get_mean_data
