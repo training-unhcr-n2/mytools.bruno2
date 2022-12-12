@@ -45,6 +45,8 @@ usethis::git_default_branch_rename()
 remotes::install_local()
 # README
 usethis::use_readme_rmd()
+## render `README.Rmd` regularly, to keep `README.md` up-to-date 
+devtools::build_readme()
 # Code of Conduct
 usethis::use_code_of_conduct("contact@fake.com")
 # NEWS
