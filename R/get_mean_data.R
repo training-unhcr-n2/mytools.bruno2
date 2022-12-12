@@ -10,7 +10,10 @@
 #' 
 #' @importFrom dplyr summarise across 
 #' @importFrom tibble as_tibble
+#' @importFrom tidyselect where
+#' 
 #' @export
+#' 
 #' @examples
 #' get_mean_data(iris)
 get_mean_data <- function(mydata){

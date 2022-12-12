@@ -11,7 +11,8 @@ License: MIT + file LICENSE
 Imports: 
     dplyr,
     magrittr,
-    tibble
+    tibble,
+    tidyselect
 Suggests: 
     knitr,
     rmarkdown,

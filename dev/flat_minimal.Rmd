@@ -103,7 +103,10 @@ test_that("get_info_data works",{
 #' 
 #' @importFrom dplyr summarise across 
 #' @importFrom tibble as_tibble
+#' @importFrom tidyselect where
+#' 
 #' @export
+#' 
 get_mean_data <- function(mydata){
     
   stopifnot("mydata is not a data frame" = is.data.frame(mydata))
