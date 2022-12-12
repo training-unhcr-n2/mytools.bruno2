@@ -50,6 +50,7 @@ stopifnot("mydata is not a data frame" = is.data.frame(mydata))
 
 ```{r examples-get_info_data}
 get_info_data(iris)
+get_info_data(my_dataset)
 
 ```
 
@@ -121,6 +122,7 @@ summarise(across(where(is.numeric), ~ mean(.x, na.rm = TRUE)))
   
 ```{r example-get_mean_data}
 get_mean_data(iris)
+get_mean_data(my_dataset)
 ```
   
 ```{r tests-get_mean_data}
