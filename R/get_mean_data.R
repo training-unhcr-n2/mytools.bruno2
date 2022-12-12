@@ -16,6 +16,7 @@
 #' 
 #' @examples
 #' get_mean_data(iris)
+#' get_mean_data(my_dataset)
 get_mean_data <- function(mydata){
     
   stopifnot("mydata is not a data frame" = is.data.frame(mydata))

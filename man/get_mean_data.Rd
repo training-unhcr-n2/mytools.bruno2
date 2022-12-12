@@ -17,4 +17,5 @@ get_mean_data will get a table with the average of all numeric variables in your
 }
 \examples{
 get_mean_data(iris)
+get_mean_data(my_dataset)
 }

@@ -12,6 +12,7 @@
 #' @examples
 #' 
 #' get_info_data(iris)
+#' get_info_data(my_dataset)
 #' 
 get_info_data <- function(mydata) {
   

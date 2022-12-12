@@ -18,5 +18,6 @@ The function will provide the following information about the data.frame: dimens
 \examples{
 
 get_info_data(iris)
+get_info_data(my_dataset)
 
 }
