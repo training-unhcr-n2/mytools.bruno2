@@ -126,10 +126,3 @@ checkhelper::use_data_doc(
 )
 ```
 
-# Vignettes
-
-```{r}
-
-usethis::use_vignette("mypackage")
-
-```

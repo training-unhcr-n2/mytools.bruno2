@@ -21,6 +21,9 @@ pkgload::load_all(export_all = FALSE)
 
 # Function get_info_data
 
+`get_info_data()` will provide the following information about the dataframe: dimension and column names. It takes `mydata` as a parameter (a dataframe) and return a list with dataframe dimension and column names.
+You can test this function with our dummy dataset include in the package `my_dataset`.
+
 ```{r function-get_info_data}
 #' get_info_data
 #' 
@@ -92,6 +95,9 @@ test_that("get_info_data works",{
 ```
 
 # Function get_mean_data
+
+`get_mean_data()` will provide a table with the average of all numeric variables in your dataframe. It takes `mydata` as a parameter (a dataframe) and return a table.
+You can test this function with our dummy dataset include in the package `my_dataset`.
     
 ```{r function-get_mean_data}
 #' get_mean_data
