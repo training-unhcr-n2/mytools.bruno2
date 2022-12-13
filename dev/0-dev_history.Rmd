@@ -121,11 +121,5 @@ usethis::use_data_raw()
 # make dataset available to end user
 usethis::use_data(my_dataset, overwrite = TRUE)
 
-# documenting my_dataset
-checkhelper::use_data_doc(
-  name = "my_dataset",
-  description = "The starwars {dplyr} dataset restricted to humans (column species)",
-  source = "{dplyr}"
-)
 ```
 
