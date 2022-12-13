@@ -12,6 +12,15 @@ test_that(
 )
 
 test_that(
+  "get_mean_data error message works",
+  {
+    df <- dplyr::starwars %>% dplyr::select(name, hair_color)
+
+    expect_error(get_mean_data(df), "mydata must at least contain one numeric column!")
+  }
+)
+
+test_that(
   "get_mean_data works",
   {
     output <- get_mean_data(iris)
