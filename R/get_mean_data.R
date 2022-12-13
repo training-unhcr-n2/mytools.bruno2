@@ -11,6 +11,8 @@
 #' @importFrom dplyr summarise across
 #' @importFrom tibble as_tibble
 #' @importFrom tidyselect where
+#' @importFrom purrr map_lgl
+#'
 #'
 #' @export
 #'
@@ -19,6 +21,12 @@
 #' get_mean_data(my_dataset)
 get_mean_data <- function(mydata) {
   stopifnot("mydata is not a data frame" = is.data.frame(mydata))
+
+  not_single_column_numeric_in_df <- !any(map_lgl(.x = mydata, .f = is.numeric))
+
+  if (not_single_column_numeric_in_df) {
+    stop("mydata must at least contain one numeric column!")
+  }
 
   result <- mydata %>%
     as_tibble() %>%
