@@ -16,8 +16,6 @@ a list with as first element the data.frame dimension and as second element the 
 The function will provide the following information about the data.frame: dimension and column names.
 }
 \examples{
-
 get_info_data(iris)
 get_info_data(my_dataset)
-
 }

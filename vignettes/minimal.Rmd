@@ -34,7 +34,6 @@ You can test this function with our dummy dataset include in the package `my_dat
 ```{r examples-get_info_data}
 get_info_data(iris)
 get_info_data(my_dataset)
-
 ```
 
 # Function get_mean_data
