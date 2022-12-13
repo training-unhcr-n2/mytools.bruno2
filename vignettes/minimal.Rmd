@@ -48,6 +48,7 @@ You can test this function with our dummy dataset include in the package `my_dat
 ```{r example-get_mean_data}
 get_mean_data(iris)
 get_mean_data(my_dataset)
+
 ```
 
   

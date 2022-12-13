@@ -79,6 +79,11 @@
 <div class="section level2">
 <h2 id="function-get_info_data">Function get_info_data<a class="anchor" aria-label="anchor" href="#function-get_info_data"></a>
 </h2>
+<p><code><a href="../reference/get_info_data.html">get_info_data()</a></code> will provide the following information
+about the dataframe: dimension and column names. It takes
+<code>mydata</code> as a parameter (a dataframe) and return a list with
+dataframe dimension and column names. You can test this function with
+our dummy dataset include in the package <code>my_dataset</code>.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="../reference/get_info_data.html">get_info_data</a></span><span class="op">(</span><span class="va">iris</span><span class="op">)</span>
 <span class="co">#&gt; $dimension</span>
@@ -96,8 +101,13 @@
 <span class="co">#&gt; [11] "species"    "films"      "vehicles"   "starships"</span></code></pre></div>
 </div>
 <div class="section level2">
-<h2 id="get_mean_data">get_mean_data<a class="anchor" aria-label="anchor" href="#get_mean_data"></a>
+<h2 id="function-get_mean_data">Function get_mean_data<a class="anchor" aria-label="anchor" href="#function-get_mean_data"></a>
 </h2>
+<p><code><a href="../reference/get_mean_data.html">get_mean_data()</a></code> will provide a table with the average of
+all numeric variables in your dataframe. It takes <code>mydata</code> as
+a parameter (a dataframe) and return a table. You can test this function
+with our dummy dataset include in the package
+<code>my_dataset</code>.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="../reference/get_mean_data.html">get_mean_data</a></span><span class="op">(</span><span class="va">iris</span><span class="op">)</span>
 <span class="co">#&gt; <span style="color: #949494;"># A tibble: 1 × 4</span></span>
